@@ -1,12 +1,22 @@
 //Jose Velazquez
 //Credit Card Validator
 
-#include "CreditCardValidator.h"
+#include "validate-credit-card.h"
 
 int main()
 {
 	CreditCard cc;
 	return 0;
+}
+
+void Pause() {
+#ifdef _WIN32
+    system("pause");
+#else
+    std::cout << "Press Enter to continue...";
+    std::cin.ignore();
+    std::cin.get();
+#endif
 }
 
 CreditCard::CreditCard()
@@ -17,7 +27,7 @@ CreditCard::CreditCard()
 
 CreditCard::~CreditCard()
 {
-	system("Pause");
+	Pause();
 }
 
 void CreditCard::InputCreditCard()
