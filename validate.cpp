@@ -1,7 +1,7 @@
 //Jose Velazquez
 //Credit Card Validator
 
-#include "validate-credit-card.h"
+#include "validate.h"
 
 int main()
 {
