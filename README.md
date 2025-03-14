@@ -8,15 +8,15 @@ Before you begin, ensure you have `g++` installed on your system to compile the 
 
 ## Compiling the Program
 
-To compile the Validate Credit Card program, open a terminal in the directory containing `validate-credit-card.cpp` and execute the following command:
+To compile the Validate Credit Card program, open a terminal in the directory containing `validate.cpp` and execute the following command:
 
 ```bash
-g++ -o validate-credit-card validate-credit-card.cpp
+g++ -o validate validate.cpp
 ```
 
 ## Running the program
 
 After compiling the program, you can run it by executing:
 ```bash
-./validate-credit-card
+./validate
 ```
